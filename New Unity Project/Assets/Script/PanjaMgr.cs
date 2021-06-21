@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Panja : MonoBehaviour
+public class PanjaMgr : MonoBehaviour
 {
     [SerializeField]
     Sprite mySprite = null;
@@ -31,7 +31,31 @@ public class Panja : MonoBehaviour
     [SerializeField]
     private float LastCreateScaleX = 0.0f;
 
+    private float ResetLastCreatePosX = 0.0f;
+    private float ResetLastCreateScaleX = 0.0f;
+
+    public static PanjaMgr MainPanjaMgr;
+    public static void PanjaReset()
+    {
+        MainPanjaMgr.ResetData();
+    }
+
     // Start is called before the first frame update
+    private void Awake()
+    {
+        ResetLastCreatePosX = LastCreatePosX;
+        ResetLastCreateScaleX = LastCreateScaleX;
+        MainPanjaMgr = this;
+        CheckPanjaCreate();
+    }
+
+    public void ResetData()
+    {
+        // 판자 생성 위치 리셋
+        LastCreatePosX = ResetLastCreatePosX;
+        LastCreateScaleX = ResetLastCreateScaleX;
+        CheckPanjaCreate();
+    }
 
     bool NewPanjaLogic()
     {
@@ -55,8 +79,10 @@ public class Panja : MonoBehaviour
 
         SpriteRenderer NewSp = newPanja.AddComponent<SpriteRenderer>();
         NewSp.sprite = mySprite;
+        NewSp.color = new Color(1.0f, 0.0f, 0.0f, 1.0f);
 
         newPanja.AddComponent<BoxCollider>();
+        newPanja.AddComponent<PanjaScript>();
 
         // 갱신
         LastCreatePosX = CreatePos.x;
@@ -69,13 +95,7 @@ public class Panja : MonoBehaviour
     {
         while (NewPanjaLogic());
     }
-
-    private void Awake()
-    {
-        CheckPanjaCreate();
-    }
-
-    // Update is called once per frame
+    
     void Update()
     {
         NewPanjaLogic();

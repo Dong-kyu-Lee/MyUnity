@@ -276,7 +276,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: a81e742427aa6e44d9ca75c03293950b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.38239586, g: 0.9339623, b: 0.39688653, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -294,8 +294,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 770668876}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: -1, z: 0}
+  m_LocalScale: {x: 6, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -321,7 +321,7 @@ MonoBehaviour:
   CreateRandomInterXEnd: 4
   CreateRange: 20
   LastCreatePosX: 0
-  LastCreateScaleX: 2.5
+  LastCreateScaleX: 5
 --- !u!65 &770668880
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -514,7 +514,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 87
-  orthographic: 0
+  orthographic: 1
   orthographic size: 5
   m_Depth: -1
   m_CullingMask:
@@ -589,6 +589,8 @@ MonoBehaviour:
   m_CameraAndPlayerData:
     m_MoveSpeed: 5
     m_JumpPower: 5
+    m_JumpCount: 2
+  m_CoinPrefab: {fileID: 3231077479349558481, guid: 4218c45ab711b13408a6ad92f5cb5adc, type: 3}
 --- !u!4 &2057652675
 Transform:
   m_ObjectHideFlags: 0

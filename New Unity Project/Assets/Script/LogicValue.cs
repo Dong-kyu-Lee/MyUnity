@@ -12,6 +12,8 @@ public class CameraAndPlayerData
     public float m_MoveSpeed = 10.0f;
     [SerializeField]
     public float m_JumpPower = 20.0f;
+    [SerializeField]
+    public int m_JumpCount = 2;
 }
 
 public class LogicValue : MonoBehaviour
@@ -21,21 +23,15 @@ public class LogicValue : MonoBehaviour
 
     [SerializeField]
     CameraAndPlayerData m_CameraAndPlayerData = new CameraAndPlayerData();
-    public static float MoveSpeed
-    {
-        get
-        {
-            return Inst.m_CameraAndPlayerData.m_MoveSpeed;
-        }
-    }
+    public static float MoveSpeed { get { return Inst.m_CameraAndPlayerData.m_MoveSpeed; } }
 
-    public static float JumpPower
-    {
-        get
-        {
-            return Inst.m_CameraAndPlayerData.m_JumpPower;
-        }
-    }
+    public static float JumpPower { get { return Inst.m_CameraAndPlayerData.m_JumpPower; } }
+
+    public static int JumpCount { get { return Inst.m_CameraAndPlayerData.m_JumpCount; } }
+
+    [SerializeField]
+    private GameObject m_CoinPrefab;
+    public static GameObject CoinPrefab { get { return Inst.m_CoinPrefab; } }
 
     private void Awake()
     {
