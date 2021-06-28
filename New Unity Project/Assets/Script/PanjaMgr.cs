@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class PanjaMgr : MonoBehaviour
 {
-    [SerializeField]
-    Sprite mySprite = null;
 
     [SerializeField]
     private float CreateRandomRangeYStart = -2.0f;
@@ -13,9 +11,9 @@ public class PanjaMgr : MonoBehaviour
     private float CreateRandomRangeYEnd = 2.0f;
 
     [SerializeField]
-    private float CreateRandomScaleXStart = 5.0f;
+    private int CreateRandomScaleXStart = 5;
     [SerializeField]
-    private float CreateRandomScaleXEnd = 10.0f;
+    private int CreateRandomScaleXEnd = 10;
 
     [SerializeField]
     private float CreateRandomInterXStart = 2.0f;
@@ -63,31 +61,38 @@ public class PanjaMgr : MonoBehaviour
         {
             return false;
         }
+        int NewFloorCount = Random.Range(CreateRandomScaleXStart, CreateRandomScaleXEnd + 1);
 
         // 새 게임 오브젝트 생성
         GameObject newPanja = new GameObject("Panja");
         //판자의 크기 정하기
-        newPanja.transform.localScale = new Vector3(Random.Range(CreateRandomScaleXStart, CreateRandomScaleXEnd), 1.0f, 1.0f);
+        //newPanja.transform.localScale = new Vector3(Random.Range(CreateRandomScaleXStart, CreateRandomScaleXEnd), 1.0f, 1.0f);
         Vector3 CreatePos = new Vector3();
         
-        CreatePos.x = LastCreatePosX + LastCreateScaleX + newPanja.transform.localScale.x * 0.5f;
+        CreatePos.x = LastCreatePosX + LastCreateScaleX + (NewFloorCount * 0.5f);
         CreatePos.x += Random.Range(CreateRandomInterXStart, CreateRandomInterXEnd);
         CreatePos.z = 0.0f;
         CreatePos.y = Random.Range(CreateRandomRangeYStart, CreateRandomRangeYEnd);
         newPanja.transform.position = CreatePos;
 
 
-        SpriteRenderer NewSp = newPanja.AddComponent<SpriteRenderer>();
+        /*SpriteRenderer NewSp = newPanja.AddComponent<SpriteRenderer>();
         NewSp.sprite = mySprite;
-        NewSp.color = new Color(1.0f, 0.0f, 0.0f, 1.0f);
+        NewSp.color = new Color(1.0f, 0.0f, 0.0f, 1.0f);*/
 
-        newPanja.AddComponent<BoxCollider>();
-        newPanja.AddComponent<PanjaScript>();
+        PanjaScript PS = newPanja.AddComponent<PanjaScript>();
+        PS.FloorCount = NewFloorCount;
+
+        BoxCollider BC = newPanja.AddComponent<BoxCollider>();
+        BC.size = new Vector3(NewFloorCount+1, 1, 1);
+        BC.center = new Vector3(-0.5f, 0, 0);
 
         // 갱신
         LastCreatePosX = CreatePos.x;
-        LastCreateScaleX = (newPanja.transform.localScale.x * 0.5f);
+        LastCreateScaleX = (PS.FloorCount * 0.5f);
 
+        //newPanja.AddComponent<BoxCollider>();
+        //newPanja.AddComponent<PanjaScript>();
         return true;
     }
 

@@ -33,6 +33,16 @@ public class LogicValue : MonoBehaviour
     private GameObject m_CoinPrefab;
     public static GameObject CoinPrefab { get { return Inst.m_CoinPrefab; } }
 
+    [SerializeField]
+    private Sprite m_MainFloor;
+    public static Sprite MainFloorSprite { get { return Inst.m_MainFloor; } }
+    [SerializeField]
+    private Sprite m_LeftFloor;
+    public static Sprite LeftFloorSprite { get { return Inst.m_LeftFloor; } }
+    [SerializeField]
+    private Sprite m_RightFloor;
+    public static Sprite RightFloorSprite { get { return Inst.m_RightFloor; } }
+
     private void Awake()
     {
         Inst = this;

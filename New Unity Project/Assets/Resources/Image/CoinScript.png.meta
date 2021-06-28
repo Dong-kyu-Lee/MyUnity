@@ -1,0 +1,972 @@
+fileFormatVersion: 2
+guid: 1b94d9d2e560fdc409bee537be129c09
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7875059599823827555
+    second: CoinScript_0
+  - first:
+      213: 6605170951159727922
+    second: CoinScript_1
+  - first:
+      213: 5810694498963875587
+    second: CoinScript_2
+  - first:
+      213: -3393484817059781319
+    second: CoinScript_3
+  - first:
+      213: -5468133638204823632
+    second: CoinScript_4
+  - first:
+      213: 3436997191936810259
+    second: CoinScript_5
+  - first:
+      213: 1399440749105831226
+    second: CoinScript_6
+  - first:
+      213: 4789245431648666875
+    second: CoinScript_7
+  - first:
+      213: 8774789978004952322
+    second: CoinScript_8
+  - first:
+      213: 7422662813872460482
+    second: CoinScript_9
+  - first:
+      213: 6058989382414793338
+    second: CoinScript_10
+  - first:
+      213: -421801293943915720
+    second: CoinScript_11
+  - first:
+      213: -6851768992759938884
+    second: CoinScript_12
+  - first:
+      213: 3753645182079585750
+    second: CoinScript_13
+  - first:
+      213: 8514409119179467545
+    second: CoinScript_14
+  - first:
+      213: 4800923036298680256
+    second: CoinScript_15
+  - first:
+      213: 1678542747463021701
+    second: CoinScript_16
+  - first:
+      213: -3638776019756380398
+    second: CoinScript_17
+  - first:
+      213: -1688584304637545827
+    second: CoinScript_18
+  - first:
+      213: -8150938873096873058
+    second: CoinScript_19
+  - first:
+      213: 568119603581158554
+    second: CoinScript_20
+  - first:
+      213: -2383855503220056305
+    second: CoinScript_21
+  - first:
+      213: -798084035290131438
+    second: CoinScript_22
+  - first:
+      213: 58758734129029880
+    second: CoinScript_23
+  - first:
+      213: -4824934167874519562
+    second: CoinScript_24
+  - first:
+      213: -8000548643087226209
+    second: CoinScript_25
+  - first:
+      213: 4228189664283450851
+    second: CoinScript_26
+  - first:
+      213: -8603606511581066017
+    second: CoinScript_27
+  - first:
+      213: -831445900488939378
+    second: CoinScript_28
+  - first:
+      213: 551448194099003396
+    second: CoinScript_29
+  - first:
+      213: -7559731992729493893
+    second: CoinScript_30
+  - first:
+      213: 9116235423735579305
+    second: CoinScript_31
+  - first:
+      213: 3120457314005999602
+    second: CoinScript_32
+  - first:
+      213: -2066945523412805524
+    second: CoinScript_33
+  - first:
+      213: -3749639311361528345
+    second: CoinScript_34
+  - first:
+      213: -2371634458271207349
+    second: CoinScript_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CoinScript_0
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 493
+        width: 62
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d887f840b26b290800000000000000
+      internalID: -7875059599823827555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinScript_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 493
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237ca900cf74aab50800000000000000
+      internalID: 6605170951159727922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinScript_2
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 493
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 307ee054cdbb3a050800000000000000
+      internalID: 5810694498963875587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinScript_3
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 493
+        width: 20
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9356870d98be7e0d0800000000000000
+      internalID: -3393484817059781319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinScript_4
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 493
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7ef6e6d694d14b0800000000000000
+      internalID: -5468133638204823632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinScript_5
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 493
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d986f6cbaa2bf20800000000000000
+      internalID: 3436997191936810259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinScript_6
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 411
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3dd8ae52ffcb6310800000000000000
+      internalID: 1399440749105831226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinScript_7
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 411
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf4c4977851d67240800000000000000
+      internalID: 4789245431648666875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinScript_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 411
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20594a18ef056c970800000000000000
+      internalID: 8774789978004952322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinScript_9
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 411
+        width: 30
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c29e549088920760800000000000000
+      internalID: 7422662813872460482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinScript_10
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 411
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a72bccdbad51450800000000000000
+      internalID: 6058989382414793338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinScript_11
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 411
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b3cac35f5752af0800000000000000
+      internalID: -421801293943915720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinScript_12
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 322
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0028f3760a9e0a0800000000000000
+      internalID: -6851768992759938884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinScript_13
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 322
+        width: 67
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ddc5bac760a71430800000000000000
+      internalID: 3753645182079585750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinScript_14
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 322
+        width: 49
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91be90d8bf1492670800000000000000
+      internalID: 8514409119179467545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinScript_15
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 322
+        width: 22
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7929ca01e40a240800000000000000
+      internalID: 4800923036298680256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinScript_16
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 322
+        width: 49
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58477da4cb16b4710800000000000000
+      internalID: 1678542747463021701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinScript_17
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 322
+        width: 67
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f06353d78708dc0800000000000000
+      internalID: -3638776019756380398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinScript_18
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 240
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9277cc7581f098e0800000000000000
+      internalID: -1688584304637545827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinScript_19
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 240
+        width: 67
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b532bc74c02ee80800000000000000
+      internalID: -8150938873096873058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinScript_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 240
+        width: 49
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a940469f4cd52e700800000000000000
+      internalID: 568119603581158554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinScript_21
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 240
+        width: 24
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f55becc08daeed0800000000000000
+      internalID: -2383855503220056305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinScript_22
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 240
+        width: 49
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2141f9f5cc2ace4f0800000000000000
+      internalID: -798084035290131438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinScript_23
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 240
+        width: 67
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f26633e1c0c0d000800000000000000
+      internalID: 58758734129029880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinScript_24
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 139
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdb13b10f36a0db0800000000000000
+      internalID: -4824934167874519562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinScript_25
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 139
+        width: 74
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a6d88d56758f090800000000000000
+      internalID: -8000548643087226209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinScript_26
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 139
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3edd796091c8daa30800000000000000
+      internalID: 4228189664283450851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinScript_27
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 139
+        width: 26
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc09f92679d99880800000000000000
+      internalID: -8603606511581066017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinScript_28
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 139
+        width: 54
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88e663db5c1674f0800000000000000
+      internalID: -831445900488939378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinScript_29
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 139
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4004d49f53327a700800000000000000
+      internalID: 551448194099003396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinScript_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 118
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ed3384ecf661790800000000000000
+      internalID: -7559731992729493893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinScript_31
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 113
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2879861df538e70800000000000000
+      internalID: 9116235423735579305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinScript_32
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 0
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ffd81ae4671e4b20800000000000000
+      internalID: 3120457314005999602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinScript_33
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 0
+        width: 34
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6855e26ffbb053e0800000000000000
+      internalID: -2066945523412805524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinScript_34
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 0
+        width: 82
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eda47aa9ea96fbc0800000000000000
+      internalID: -3749639311361528345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinScript_35
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 0
+        width: 113
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b403ba19603461fd0800000000000000
+      internalID: -2371634458271207349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

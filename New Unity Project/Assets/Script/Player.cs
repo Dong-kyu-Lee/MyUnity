@@ -5,6 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     Rigidbody rigid = null;
+    private Animator m_Ani = null;
 
     private static bool m_isDeath;
     public static bool IsDeath
@@ -28,6 +29,7 @@ public class Player : MonoBehaviour
     void Awake()
     {
         rigid = GetComponent<Rigidbody>();
+        m_Ani = GetComponent<Animator>();
         Transform transform = GetComponent<Transform>();
 
         m_JumpCount = LogicValue.JumpCount;
@@ -57,14 +59,18 @@ public class Player : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.Space) && m_JumpCount > 0)
         {
+            m_Ani.SetTrigger("JUMP");
             rigid.velocity =  Vector3.zero;
             rigid.AddForce(Vector3.up * LogicValue.JumpPower,ForceMode.Impulse);
             --m_JumpCount;
         }
+
+        
     }
 
     private void OnCollisionEnter(Collision collision)
     {
+        m_Ani.SetTrigger("RUN");
         m_JumpCount = LogicValue.JumpCount;
     }
 }
