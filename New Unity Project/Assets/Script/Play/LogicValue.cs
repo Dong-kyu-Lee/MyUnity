@@ -53,4 +53,11 @@ public class LogicValue : MonoBehaviour
     {
         
     }
+
+    public static GameObject NameInst(GameObject gameObject)
+    {
+        GameObject NewObj = GameObject.Instantiate(gameObject);
+        NewObj.name = gameObject.name;
+        return gameObject;
+    }
 }

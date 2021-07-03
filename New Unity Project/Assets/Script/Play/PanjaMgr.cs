@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PanjaMgr : MonoBehaviour
 {
-
     [SerializeField]
     private float CreateRandomRangeYStart = -2.0f;
     [SerializeField]
@@ -69,7 +68,7 @@ public class PanjaMgr : MonoBehaviour
         //newPanja.transform.localScale = new Vector3(Random.Range(CreateRandomScaleXStart, CreateRandomScaleXEnd), 1.0f, 1.0f);
         Vector3 CreatePos = new Vector3();
         
-        CreatePos.x = LastCreatePosX + LastCreateScaleX + (NewFloorCount * 0.5f);
+        CreatePos.x = LastCreatePosX + LastCreateScaleX + (NewFloorCount * 1.0f);
         CreatePos.x += Random.Range(CreateRandomInterXStart, CreateRandomInterXEnd);
         CreatePos.z = 0.0f;
         CreatePos.y = Random.Range(CreateRandomRangeYStart, CreateRandomRangeYEnd);
